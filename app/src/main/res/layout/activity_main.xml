@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/coordinatorLayout">
+    >
 
 
     <android.support.design.widget.FloatingActionButton
@@ -18,3 +18,6 @@
 
 
 </android.support.design.widget.CoordinatorLayout>
+
+<!--  app:layout_behavior="com.example.nassim.tp_coordinatorlayout.FloatingActionButtonBehaviour"
+      -->
