@@ -30,7 +30,7 @@ public class FloatingActionButtonBehaviour extends CoordinatorLayout.Behavior<Fl
     public boolean onDependentViewChanged(CoordinatorLayout parent, FloatingActionButton child, View dependency) {
         float translationY = Math.min(0, dependency.getTranslationY() - dependency.getHeight());
         float translationX =0 ;
-        if(translationY < -10) translationX= -dependency.getWidth()+child.getWidth() +10;
+        if(translationY < -10) translationX= -dependency.getWidth()+child.getWidth() +30;
         else translationX = 0;
         child.setTranslationY(translationY);
         child.setTranslationX(translationX);

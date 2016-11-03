@@ -13,7 +13,6 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="16dp"
         android:src="@mipmap/ic_launcher"
-        app:layout_behavior="com.example.nassim.tp_coordinatorlayout.FloatingActionButtonBehaviour"
         />
 
 
